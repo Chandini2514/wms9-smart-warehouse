@@ -1,0 +1,28 @@
+<slide id="material_quarantine">
+  <background color="bg"/>
+  <shape id="top-rail" type="line" x="40" y="72" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="brand-line" x="48" y="40" width="280" height="20" font="mono" size="14" color="amber" wrap="false">WMS-9  /  QUALITY GATE</text>
+  <text id="page-code" x="900" y="40" width="330" height="20" font="mono" size="12" color="text-muted" align="right" wrap="false">05 // MATERIAL QUARANTINE</text>
+  <text id="slide-title" x="60" y="96" width="1100" height="44" font="heading" size="40" color="text-main" wrap="false">Quarantine prevents bad stock from becoming a late order.</text>
+  <text id="slide-subtitle" x="60" y="146" width="1040" height="28" font="body" size="18" color="text-muted">Flagged material leaves the allocation engine immediately, before it can create an outbound fulfillment failure.</text>
+  <image id="quarantine-evidence" src="https://private-us-east-1.manuscdn.com/sessionFile/kUC4ix21NV7LdnS7CH9HBx/sandbox/slides_resource_iwkwan5l578q94k8b5ycg-956dc7ec-e2b-prod-azure-central-us_1787032533776_na1fn_L2hvbWUvdWJ1bnR1L3dlYmRldi1zdGF0aWMtYXNzZXRzL3dtczktcXVhcmFudGluZS1tYXRlcmlhbA.jpg?x-oss-process=image/resize,w_1560,h_1560/format,webp&Expires=1789430400&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUva1VDNGl4MjFOVjdMZG5TN0NIOUhCeC9zYW5kYm94L3NsaWRlc19yZXNvdXJjZV9pd2t3YW41bDU3OHE5NGs4YjV5Y2ctOTU2ZGM3ZWMtZTJiLXByb2QtYXp1cmUtY2VudHJhbC11c18xNzg3MDMyNTMzNzc2X25hMWZuX0wyaHZiV1V2ZFdKMWJuUjFMM2RsWW1SbGRpMXpkR0YwYVdNdFlYTnpaWFJ6TDNkdGN6a3RjWFZoY21GdWRHbHVaUzF0WVhSbGNtbGhiQS5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xNTYwLGhfMTU2MC9mb3JtYXQsd2VicCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTQzMDQwMH19fV19&Key-Pair-Id=K2QY5QTL8JSY6C&Signature=MEUCIHI17oBF5uz4eb3z0FY3FeTHhjgLnQzn1Vnuy-ZKI5MmAiEAi4YKiUc3~ItrVdYMO3ENzEy~nQSyaWlq9XWSQohD13s_" x="60" y="204" width="480" height="380" fit="cover" stroke="separator" stroke-width="1"/>
+  <shape id="image-overlay" type="rect" x="60" y="492" width="480" height="92" fill="#12161DCC"/>
+  <text id="image-label" x="84" y="510" width="300" height="18" font="mono" size="12" color="amber" wrap="false">VIRTUAL BIN // Q-01</text>
+  <text id="image-caption" x="84" y="536" width="395" height="30" font="body" size="17" color="text-main">Affected batch is physically and digitally isolated.</text>
+  <shape id="quarantine-panel" type="rect" x="580" y="204" width="640" height="380" fill="panel" stroke="separator" stroke-width="1"/>
+  <shape id="quarantine-tab" type="rect" x="580" y="204" width="7" height="380" fill="red"/>
+  <text id="issue-meta" x="610" y="228" width="340" height="18" font="mono" size="12" color="red" wrap="false">MIS-090 // INCOMING DEFECT</text>
+  <text id="issue-title" x="610" y="258" width="540" height="32" font="heading" size="29" color="text-main">Batch VC-7751 · 16 units</text>
+  <text id="issue-body" x="610" y="302" width="540" height="42" font="body" size="18" color="text-muted">Reported by QC. SKU SK-2088 is immediately removed from allocatable stock.</text>
+  <shape id="action-rule" type="line" x="610" y="366" width="560" height="0" stroke="separator" stroke-width="1"/>
+  <text id="action-label" x="610" y="390" width="210" height="18" font="mono" size="12" color="amber" wrap="false">SYSTEM DECISION</text>
+  <text id="action-text" x="610" y="416" width="550" height="28" font="body" size="19" color="text-main">Quarantine now. Reorder recommendation created.</text>
+  <shape id="return-option" type="rect" x="610" y="484" width="168" height="54" fill="#2B3240" stroke="separator" stroke-width="1"/>
+  <text id="return-option-text" x="610" y="501" width="168" height="20" font="mono" size="12" color="text-main" align="center">RETURN</text>
+  <shape id="scrap-option" type="rect" x="801" y="484" width="168" height="54" fill="#2B3240" stroke="separator" stroke-width="1"/>
+  <text id="scrap-option-text" x="801" y="501" width="168" height="20" font="mono" size="12" color="text-main" align="center">SCRAP</text>
+  <shape id="release-option" type="rect" x="992" y="484" width="168" height="54" fill="#2B3240" stroke="green" stroke-width="1"/>
+  <text id="release-option-text" x="992" y="501" width="168" height="20" font="mono" size="12" color="green" align="center">RELEASE</text>
+  <shape id="bottom-rail" type="line" x="40" y="656" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="deck-footer" x="910" y="666" width="300" height="18" font="mono" size="12" color="text-muted" align="right" wrap="false">DECISION RAIL // QC EVENT</text>
+</slide>

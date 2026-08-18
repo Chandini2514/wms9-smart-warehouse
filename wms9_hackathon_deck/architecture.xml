@@ -1,0 +1,39 @@
+<slide id="architecture">
+  <background color="bg"/>
+  <shape id="top-rail" type="line" x="40" y="72" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="brand-line" x="48" y="40" width="280" height="20" font="mono" size="14" color="amber" wrap="false">WMS-9  /  SYSTEM DESIGN</text>
+  <text id="page-code" x="900" y="40" width="330" height="20" font="mono" size="12" color="text-muted" align="right" wrap="false">10 // DELIVERY ARCHITECTURE</text>
+  <text id="slide-title" x="60" y="96" width="1150" height="44" font="heading" size="40" color="text-main" wrap="false">Built for the hackathon. Ready to evolve.</text>
+  <text id="slide-subtitle" x="60" y="146" width="1090" height="28" font="body" size="18" color="text-muted">A single-page React demo delivers the whole decision loop today, with defined objects ready for production data sources.</text>
+  <text id="input-label" x="60" y="184" width="240" height="18" font="mono" size="12" color="text-muted" wrap="false">OPERATIONAL INPUTS</text>
+  <shape id="orders-module" type="rect" x="60" y="210" width="300" height="62" fill="panel" stroke="blue" stroke-width="1"/>
+  <text id="orders-module-text" x="82" y="231" width="245" height="20" font="body" size="18" color="text-main">Orders + priority state</text>
+  <shape id="inventory-module" type="rect" x="60" y="292" width="300" height="62" fill="panel" stroke="blue" stroke-width="1"/>
+  <text id="inventory-module-text" x="82" y="313" width="245" height="20" font="body" size="18" color="text-main">Inventory + material issues</text>
+  <shape id="shipping-module" type="rect" x="60" y="374" width="300" height="62" fill="panel" stroke="blue" stroke-width="1"/>
+  <text id="shipping-module-text" x="82" y="395" width="245" height="20" font="body" size="18" color="text-main">Shipping + tracking events</text>
+  <shape id="chat-module" type="rect" x="60" y="456" width="300" height="62" fill="panel" stroke="blue" stroke-width="1"/>
+  <text id="chat-module-text" x="82" y="477" width="245" height="20" font="body" size="18" color="text-main">Chat + quick-action signals</text>
+  <shape id="left-connector" type="line" x="360" y="364" width="75" height="0" stroke="separator" stroke-width="2" arrow-end="arrow"/>
+  <shape id="decision-core" type="rect" x="435" y="210" width="410" height="308" fill="panel" stroke="amber" stroke-width="2"/>
+  <text id="core-label" x="465" y="236" width="280" height="18" font="mono" size="12" color="amber" wrap="false">IN-MEMORY DECISION LAYER</text>
+  <text id="core-title" x="465" y="274" width="320" height="34" font="heading" size="31" color="text-main">Decision Ledger</text>
+  <shape id="core-rule" type="line" x="465" y="327" width="350" height="0" stroke="separator" stroke-width="1"/>
+  <text id="core-item-one" x="465" y="354" width="330" height="22" font="body" size="17" color="text-main">• Allocation and safety-stock checks</text>
+  <text id="core-item-two" x="465" y="392" width="330" height="22" font="body" size="17" color="text-main">• Carrier and consolidation logic</text>
+  <text id="core-item-three" x="465" y="430" width="330" height="22" font="body" size="17" color="text-main">• QC, quarantine, and recovery rules</text>
+  <text id="core-item-four" x="465" y="468" width="330" height="22" font="body" size="17" color="green">• Traceable event history</text>
+  <shape id="right-connector" type="line" x="845" y="364" width="75" height="0" stroke="separator" stroke-width="2" arrow-end="arrow"/>
+  <text id="output-label" x="920" y="184" width="240" height="18" font="mono" size="12" color="text-muted" wrap="false">OPERATIONAL OUTPUTS</text>
+  <shape id="console-module" type="rect" x="920" y="250" width="300" height="86" fill="panel" stroke="green" stroke-width="1"/>
+  <text id="console-module-label" x="944" y="270" width="220" height="18" font="mono" size="11" color="green" wrap="false">INTERNAL CONSOLE</text>
+  <text id="console-module-text" x="944" y="296" width="240" height="20" font="body" size="18" color="text-main">Action-first floor workflows</text>
+  <shape id="customer-module" type="rect" x="920" y="374" width="300" height="86" fill="panel" stroke="green" stroke-width="1"/>
+  <text id="customer-module-label" x="944" y="394" width="220" height="18" font="mono" size="11" color="green" wrap="false">CUSTOMER VIEW</text>
+  <text id="customer-module-text" x="944" y="420" width="240" height="20" font="body" size="18" color="text-main">Read-only shipment trace</text>
+  <shape id="integration-rail" type="rect" x="60" y="542" width="1160" height="70" fill="#1B212B" stroke="separator" stroke-width="1"/>
+  <text id="integration-label" x="84" y="566" width="300" height="18" font="mono" size="12" color="amber" wrap="false">FUTURE INTEGRATION BOUNDARY</text>
+  <text id="integration-text" x="380" y="562" width="780" height="24" font="body" size="17" color="text-main">Replace mock state with warehouse, carrier, supplier, and collaboration APIs without a UI rewrite.</text>
+  <shape id="bottom-rail" type="line" x="40" y="656" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="deck-footer" x="910" y="666" width="300" height="18" font="mono" size="12" color="text-muted" align="right" wrap="false">DECISION RAIL // REACT DEMO</text>
+</slide>

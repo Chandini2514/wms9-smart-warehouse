@@ -1,0 +1,16 @@
+<design>
+  <size width="1280" height="720"></size>
+  <color name="bg" value="#12161D"/>
+  <color name="panel" value="#1B212B"/>
+  <color name="separator" value="#2B3240"/>
+  <color name="text-main" value="#FFFFFF"/>
+  <color name="text-muted" value="#8B949E"/>
+  <color name="amber" value="#F5A623"/>
+  <color name="green" value="#3DDC84"/>
+  <color name="red" value="#FF5A5F"/>
+  <color name="blue" value="#5B8DEF"/>
+  <font name="display" family="Barlow Condensed" size="56"/>
+  <font name="heading" family="Barlow Condensed" size="32"/>
+  <font name="body" family="Inter" size="18"/>
+  <font name="mono" family="IBM Plex Mono" size="14"/>
+</design>

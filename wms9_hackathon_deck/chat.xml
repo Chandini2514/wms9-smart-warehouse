@@ -1,0 +1,36 @@
+<slide id="chat">
+  <background color="bg"/>
+  <shape id="top-rail" type="line" x="40" y="72" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="brand-line" x="48" y="40" width="280" height="20" font="mono" size="14" color="amber" wrap="false">WMS-9  /  FLOOR COORDINATION</text>
+  <text id="page-code" x="900" y="40" width="330" height="20" font="mono" size="12" color="text-muted" align="right" wrap="false">08 // TEAM CHAT</text>
+  <text id="slide-title" x="60" y="96" width="1120" height="44" font="heading" size="40" color="text-main" wrap="false">Floor chat is structured operational context.</text>
+  <text id="slide-subtitle" x="60" y="146" width="1060" height="28" font="body" size="18" color="text-muted">Shift updates stay attached to the order or exception they affect—and quick actions update the operational state.</text>
+  <shape id="chat-panel" type="rect" x="60" y="202" width="560" height="390" fill="panel" stroke="separator" stroke-width="1"/>
+  <text id="chat-channel" x="84" y="228" width="300" height="20" font="mono" size="13" color="amber" wrap="false"># SHIFT-A // 4 ACTIVE</text>
+  <shape id="chat-header-rule" type="line" x="84" y="258" width="510" height="0" stroke="separator" stroke-width="1"/>
+  <shape id="meera-avatar" type="ellipse" x="84" y="284" width="28" height="28" fill="amber"/>
+  <text id="meera-name" x="126" y="282" width="230" height="18" font="mono" size="12" color="text-main" wrap="false">MEERA / SUPERVISOR</text>
+  <text id="meera-message" x="126" y="306" width="405" height="36" font="body" size="16" color="text-muted">Monitor quarantine impact for SK-2088 before the next allocation wave.</text>
+  <shape id="riya-avatar" type="ellipse" x="84" y="368" width="28" height="28" fill="blue"/>
+  <text id="riya-name" x="126" y="366" width="220" height="18" font="mono" size="12" color="text-main" wrap="false">RIYA / QC</text>
+  <text id="riya-message" x="126" y="390" width="400" height="36" font="body" size="16" color="text-muted">Retail display hub needs visual inspection before carrier assignment.</text>
+  <shape id="quick-actions-rule" type="line" x="84" y="458" width="510" height="0" stroke="separator" stroke-width="1"/>
+  <text id="quick-actions-label" x="84" y="478" width="180" height="18" font="mono" size="12" color="text-muted" wrap="false">QUICK ACTIONS</text>
+  <shape id="backup-action" type="rect" x="84" y="510" width="150" height="42" fill="#2B3240" stroke="separator" stroke-width="1"/>
+  <text id="backup-action-text" x="84" y="523" width="150" height="18" font="mono" size="10" color="text-main" align="center">NEED BACKUP</text>
+  <shape id="hold-action" type="rect" x="250" y="510" width="150" height="42" fill="amber"/>
+  <text id="hold-action-text" x="250" y="523" width="150" height="18" font="mono" size="10" color="bg" align="center">QC HOLD</text>
+  <shape id="pickup-action" type="rect" x="416" y="510" width="150" height="42" fill="#2B3240" stroke="separator" stroke-width="1"/>
+  <text id="pickup-action-text" x="416" y="523" width="150" height="18" font="mono" size="10" color="text-main" align="center">READY FOR PICKUP</text>
+  <shape id="impact-panel" type="rect" x="660" y="202" width="560" height="390" fill="panel" stroke="separator" stroke-width="1"/>
+  <shape id="impact-tab" type="rect" x="660" y="202" width="7" height="390" fill="amber"/>
+  <text id="impact-label" x="690" y="228" width="310" height="18" font="mono" size="12" color="amber" wrap="false">QUICK ACTION // QC HOLD</text>
+  <text id="impact-title" x="690" y="264" width="450" height="40" font="heading" size="31" color="text-main">One tap changes the workflow.</text>
+  <shape id="impact-rule" type="line" x="690" y="326" width="480" height="0" stroke="separator" stroke-width="1"/>
+  <text id="impact-step-one" x="690" y="354" width="440" height="24" font="body" size="18" color="text-main">1. Message stays on the order thread.</text>
+  <text id="impact-step-two" x="690" y="402" width="440" height="24" font="body" size="18" color="text-main">2. ORD-4535 moves to QC hold.</text>
+  <text id="impact-step-three" x="690" y="450" width="460" height="24" font="body" size="18" color="text-main">3. Carrier assignment is blocked.</text>
+  <text id="impact-step-four" x="690" y="498" width="470" height="24" font="body" size="18" color="green">4. Decision Ledger records who raised it and why.</text>
+  <shape id="bottom-rail" type="line" x="40" y="656" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="deck-footer" x="910" y="666" width="300" height="18" font="mono" size="12" color="text-muted" align="right" wrap="false">DECISION RAIL // CHAT EVENT</text>
+</slide>

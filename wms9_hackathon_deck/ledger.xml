@@ -1,0 +1,36 @@
+<slide id="ledger">
+  <background color="bg"/>
+  <shape id="top-rail" type="line" x="40" y="72" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="brand-line" x="48" y="40" width="280" height="20" font="mono" size="14" color="amber" wrap="false">WMS-9  /  SYSTEM REASONING</text>
+  <text id="page-code" x="900" y="40" width="330" height="20" font="mono" size="12" color="text-muted" align="right" wrap="false">04 // DECISION LEDGER</text>
+  <text id="slide-title" x="60" y="96" width="1020" height="44" font="heading" size="40" color="text-main" wrap="false">The Decision Ledger makes automation explainable.</text>
+  <text id="slide-subtitle" x="60" y="146" width="940" height="28" font="body" size="18" color="text-muted">The same event trail connects allocation, material quality, shipping, tracking, and floor chat.</text>
+  <text id="principle-one-label" x="60" y="206" width="220" height="18" font="mono" size="12" color="amber" wrap="false">01 // TRIGGER</text>
+  <text id="principle-one" x="60" y="234" width="360" height="52" font="body" size="19" color="text-main">The ledger records what changed and who or what raised the signal.</text>
+  <shape id="principle-one-rule" type="line" x="60" y="308" width="360" height="0" stroke="separator" stroke-width="1"/>
+  <text id="principle-two-label" x="60" y="334" width="220" height="18" font="mono" size="12" color="amber" wrap="false">02 // DECISION</text>
+  <text id="principle-two" x="60" y="362" width="360" height="52" font="body" size="19" color="text-main">It explains the action selected and the evidence used to select it.</text>
+  <shape id="principle-two-rule" type="line" x="60" y="436" width="360" height="0" stroke="separator" stroke-width="1"/>
+  <text id="principle-three-label" x="60" y="462" width="250" height="18" font="mono" size="12" color="amber" wrap="false">03 // RESOLUTION</text>
+  <text id="principle-three" x="60" y="490" width="360" height="54" font="body" size="19" color="text-main">The outcome remains visible for audit, team context, and the next operational handoff.</text>
+  <shape id="ledger-panel" type="rect" x="492" y="192" width="728" height="424" fill="panel" stroke="separator" stroke-width="1"/>
+  <text id="ledger-panel-label" x="520" y="216" width="300" height="18" font="mono" size="12" color="amber" wrap="false">LIVE EVENT STREAM // 4 ENTRIES</text>
+  <shape id="ledger-header-rule" type="line" x="520" y="248" width="670" height="0" stroke="separator" stroke-width="1"/>
+  <shape id="ledger-dot-one" type="ellipse" x="522" y="276" width="9" height="9" fill="amber"/>
+  <text id="ledger-meta-one" x="548" y="270" width="380" height="18" font="mono" size="12" color="amber" wrap="false">09:18:42  SHIPPING</text>
+  <text id="ledger-entry-one" x="548" y="296" width="635" height="42" font="body" size="16" color="text-main">ORD-4507: VIP tier + 1h 32m SLA → Express selected despite +₹120 cost.</text>
+  <shape id="ledger-rule-one" type="line" x="520" y="353" width="670" height="0" stroke="separator" stroke-width="1"/>
+  <shape id="ledger-dot-two" type="ellipse" x="522" y="380" width="9" height="9" fill="red"/>
+  <text id="ledger-meta-two" x="548" y="374" width="380" height="18" font="mono" size="12" color="red" wrap="false">09:03:08  MATERIALS</text>
+  <text id="ledger-entry-two" x="548" y="400" width="635" height="42" font="body" size="16" color="text-main">Batch VC-7751 quarantined → SK-2088 fell below reorder point → replenishment recommended.</text>
+  <shape id="ledger-rule-two" type="line" x="520" y="457" width="670" height="0" stroke="separator" stroke-width="1"/>
+  <shape id="ledger-dot-three" type="ellipse" x="522" y="484" width="9" height="9" fill="blue"/>
+  <text id="ledger-meta-three" x="548" y="478" width="380" height="18" font="mono" size="12" color="blue" wrap="false">08:54:31  ALLOCATION</text>
+  <text id="ledger-entry-three" x="548" y="504" width="635" height="42" font="body" size="16" color="text-main">ORD-4526 allocated from C-06-11; projected stock remains above the safety threshold.</text>
+  <shape id="ledger-rule-three" type="line" x="520" y="561" width="670" height="0" stroke="separator" stroke-width="1"/>
+  <shape id="ledger-dot-four" type="ellipse" x="522" y="588" width="9" height="9" fill="green"/>
+  <text id="ledger-meta-four" x="548" y="582" width="380" height="18" font="mono" size="12" color="green" wrap="false">08:42:12  QC</text>
+  <text id="ledger-entry-four" x="548" y="608" width="635" height="26" font="body" size="16" color="text-main">QC hold logged; carrier assignment blocked until inspection release.</text>
+  <shape id="bottom-rail" type="line" x="40" y="656" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="deck-footer" x="910" y="666" width="300" height="18" font="mono" size="12" color="text-muted" align="right" wrap="false">DECISION RAIL // 09:18:42</text>
+</slide>

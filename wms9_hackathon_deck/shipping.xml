@@ -1,0 +1,35 @@
+<slide id="shipping">
+  <background color="bg"/>
+  <shape id="top-rail" type="line" x="40" y="72" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="brand-line" x="48" y="40" width="280" height="20" font="mono" size="14" color="amber" wrap="false">WMS-9  /  CARRIER INTELLIGENCE</text>
+  <text id="page-code" x="900" y="40" width="330" height="20" font="mono" size="12" color="text-muted" align="right" wrap="false">06 // SHIPPING DECISION</text>
+  <text id="slide-title" x="60" y="96" width="980" height="44" font="heading" size="40" color="text-main" wrap="false">Shipping uses SLA and priority—not guesswork.</text>
+  <text id="slide-subtitle" x="60" y="146" width="1050" height="28" font="body" size="18" color="text-muted">WMS-9 selects the fastest viable service for the order, then records the cost trade-off in the ledger.</text>
+  <shape id="economy-card" type="rect" x="60" y="212" width="350" height="258" fill="panel" stroke="separator" stroke-width="1"/>
+  <text id="economy-code" x="84" y="236" width="180" height="18" font="mono" size="12" color="text-muted" wrap="false">ECONOMY FREIGHT</text>
+  <text id="economy-title" x="84" y="270" width="220" height="36" font="heading" size="29" color="text-main">Lowest cost</text>
+  <text id="economy-cost" x="84" y="324" width="180" height="26" font="mono" size="20" color="text-main">₹92 / ORDER</text>
+  <text id="economy-desc" x="84" y="374" width="250" height="48" font="body" size="17" color="text-muted">Use only when the order has sufficient SLA slack.</text>
+  <shape id="standard-card" type="rect" x="455" y="212" width="350" height="258" fill="panel" stroke="blue" stroke-width="1"/>
+  <text id="standard-code" x="479" y="236" width="180" height="18" font="mono" size="12" color="blue" wrap="false">PARCELGO STANDARD</text>
+  <text id="standard-title" x="479" y="270" width="220" height="36" font="heading" size="29" color="text-main">Balanced route</text>
+  <text id="standard-cost" x="479" y="324" width="180" height="26" font="mono" size="20" color="text-main">₹160 / ORDER</text>
+  <text id="standard-desc" x="479" y="374" width="250" height="48" font="body" size="17" color="text-muted">Use when standard delivery still protects the promise.</text>
+  <shape id="express-card" type="rect" x="850" y="212" width="370" height="258" fill="panel" stroke="amber" stroke-width="2"/>
+  <shape id="express-tab" type="rect" x="850" y="212" width="370" height="7" fill="amber"/>
+  <text id="express-code" x="874" y="236" width="210" height="18" font="mono" size="12" color="amber" wrap="false">SWIFTLANE EXPRESS</text>
+  <text id="express-title" x="874" y="270" width="220" height="36" font="heading" size="29" color="text-main">Protect the SLA</text>
+  <text id="express-cost" x="874" y="324" width="180" height="26" font="mono" size="20" color="text-main">₹280 / ORDER</text>
+  <text id="express-desc" x="874" y="374" width="285" height="48" font="body" size="17" color="text-muted">Assign when the customer tier or remaining SLA makes time critical.</text>
+  <shape id="manifest-panel" type="rect" x="60" y="508" width="1160" height="100" fill="panel" stroke="separator" stroke-width="1"/>
+  <text id="order-context-label" x="84" y="529" width="220" height="18" font="mono" size="12" color="text-muted" wrap="false">ORDER CONTEXT</text>
+  <text id="order-context" x="84" y="553" width="300" height="28" font="body" size="18" color="text-main">ORD-4507 · VIP · 1h 32m remaining</text>
+  <shape id="decision-arrow" type="arrow" x="430" y="543" width="155" height="36" fill="amber" head-ratio="0.25"/>
+  <text id="decision-arrow-text" x="440" y="551" width="105" height="18" font="mono" size="11" color="bg" align="center" wrap="false">ASSIGN</text>
+  <text id="carrier-choice" x="620" y="529" width="300" height="18" font="mono" size="12" color="amber" wrap="false">DECISION</text>
+  <text id="carrier-choice-text" x="620" y="553" width="310" height="28" font="body" size="18" color="text-main">Express despite +₹120 cost</text>
+  <text id="manifest-note" x="970" y="529" width="210" height="18" font="mono" size="12" color="green" wrap="false">MANIFEST CHECK</text>
+  <text id="manifest-note-text" x="970" y="553" width="210" height="32" font="body" size="15" color="text-main">Combine non-critical orders by region.</text>
+  <shape id="bottom-rail" type="line" x="40" y="656" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="deck-footer" x="910" y="666" width="300" height="18" font="mono" size="12" color="text-muted" align="right" wrap="false">DECISION RAIL // SHIPPING</text>
+</slide>

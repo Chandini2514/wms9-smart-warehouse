@@ -1,0 +1,15 @@
+<slide id="close">
+  <background color="bg"/>
+  <shape id="outer-frame" type="rect" x="40" y="32" width="1200" height="656" fill="none" stroke="separator" stroke-width="1"/>
+  <shape id="top-rail" type="line" x="40" y="72" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="brand-line" x="58" y="40" width="280" height="20" font="mono" size="14" color="amber" wrap="false">WMS-9  /  DECISION RAIL</text>
+  <text id="system-code" x="936" y="40" width="274" height="20" font="mono" size="12" color="text-muted" align="right" wrap="false">SYSTEM STATUS // READY</text>
+  <shape id="decision-signal" type="rect" x="550" y="208" width="180" height="6" fill="amber"/>
+  <text id="closing-title" x="170" y="252" width="940" height="112" font="display" size="64" color="text-main" align="center" anchor="middle">Resolve risk before it becomes delay.</text>
+  <text id="closing-subtitle" x="230" y="392" width="820" height="40" font="heading" size="29" color="text-muted" align="center">Every action is traceable. Every exception has a next move.</text>
+  <shape id="status-panel" type="rect" x="415" y="486" width="450" height="52" fill="panel" stroke="separator" stroke-width="1"/>
+  <shape id="status-dot" type="ellipse" x="438" y="506" width="12" height="12" fill="green"/>
+  <text id="status-text" x="470" y="501" width="365" height="20" font="mono" size="13" color="text-main" align="center" wrap="false">WMS-9 // DEMO COMPLETE</text>
+  <shape id="bottom-rail" type="line" x="40" y="656" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="deck-footer" x="860" y="666" width="350" height="18" font="mono" size="12" color="text-muted" align="right" wrap="false">THANK YOU // HACKATHON 2026</text>
+</slide>

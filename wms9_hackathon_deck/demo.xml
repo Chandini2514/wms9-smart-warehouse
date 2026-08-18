@@ -1,0 +1,34 @@
+<slide id="demo">
+  <background color="bg"/>
+  <shape id="top-rail" type="line" x="40" y="72" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="brand-line" x="48" y="40" width="280" height="20" font="mono" size="14" color="amber" wrap="false">WMS-9  /  DEMO RUNBOOK</text>
+  <text id="page-code" x="900" y="40" width="330" height="20" font="mono" size="12" color="text-muted" align="right" wrap="false">09 // JUDGE DEMO</text>
+  <text id="slide-title" x="60" y="96" width="1100" height="44" font="heading" size="40" color="text-main" wrap="false">Demo the exception-to-resolution loop.</text>
+  <text id="slide-subtitle" x="60" y="146" width="1080" height="28" font="body" size="18" color="text-muted">Four interactions demonstrate the platform’s decision-making value without relying on any external integration.</text>
+  <shape id="demo-one-card" type="rect" x="60" y="196" width="570" height="172" fill="panel" stroke="separator" stroke-width="1"/>
+  <shape id="demo-one-tab" type="rect" x="60" y="196" width="7" height="172" fill="red"/>
+  <text id="demo-one-number" x="91" y="222" width="60" height="28" font="display" size="30" color="red" wrap="false">01</text>
+  <text id="demo-one-label" x="170" y="224" width="300" height="18" font="mono" size="12" color="text-muted" wrap="false">MATERIAL RISK</text>
+  <text id="demo-one-action" x="91" y="270" width="460" height="24" font="body" size="18" color="text-main">Judge action: report a damaged SKU.</text>
+  <text id="demo-one-result" x="91" y="310" width="490" height="30" font="body" size="17" color="text-muted">System: quarantine batch, block allocation, recommend reorder.</text>
+  <shape id="demo-two-card" type="rect" x="650" y="196" width="570" height="172" fill="panel" stroke="separator" stroke-width="1"/>
+  <shape id="demo-two-tab" type="rect" x="650" y="196" width="7" height="172" fill="amber"/>
+  <text id="demo-two-number" x="681" y="222" width="60" height="28" font="display" size="30" color="amber" wrap="false">02</text>
+  <text id="demo-two-label" x="760" y="224" width="300" height="18" font="mono" size="12" color="text-muted" wrap="false">TIME-CRITICAL ORDER</text>
+  <text id="demo-two-action" x="681" y="270" width="470" height="24" font="body" size="18" color="text-main">Judge action: open QC-passed VIP order.</text>
+  <text id="demo-two-result" x="681" y="310" width="485" height="30" font="body" size="17" color="text-muted">System: assign Express with SLA and cost rationale.</text>
+  <shape id="demo-three-card" type="rect" x="60" y="402" width="570" height="172" fill="panel" stroke="separator" stroke-width="1"/>
+  <shape id="demo-three-tab" type="rect" x="60" y="402" width="7" height="172" fill="blue"/>
+  <text id="demo-three-number" x="91" y="428" width="60" height="28" font="display" size="30" color="blue" wrap="false">03</text>
+  <text id="demo-three-label" x="170" y="430" width="300" height="18" font="mono" size="12" color="text-muted" wrap="false">DELIVERY CONTROL</text>
+  <text id="demo-three-action" x="91" y="476" width="460" height="24" font="body" size="18" color="text-main">Judge action: advance tracking or trigger failure.</text>
+  <text id="demo-three-result" x="91" y="516" width="490" height="30" font="body" size="17" color="text-muted">System: write checkpoint and propose customer recovery work.</text>
+  <shape id="demo-four-card" type="rect" x="650" y="402" width="570" height="172" fill="panel" stroke="separator" stroke-width="1"/>
+  <shape id="demo-four-tab" type="rect" x="650" y="402" width="7" height="172" fill="green"/>
+  <text id="demo-four-number" x="681" y="428" width="60" height="28" font="display" size="30" color="green" wrap="false">04</text>
+  <text id="demo-four-label" x="760" y="430" width="300" height="18" font="mono" size="12" color="text-muted" wrap="false">TEAM COORDINATION</text>
+  <text id="demo-four-action" x="681" y="476" width="470" height="24" font="body" size="18" color="text-main">Judge action: send the QC hold quick action.</text>
+  <text id="demo-four-result" x="681" y="516" width="480" height="30" font="body" size="17" color="text-muted">System: block shipping and log the operational reason.</text>
+  <shape id="bottom-rail" type="line" x="40" y="656" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="deck-footer" x="910" y="666" width="300" height="18" font="mono" size="12" color="text-muted" align="right" wrap="false">DECISION RAIL // DEMO SEQUENCE</text>
+</slide>

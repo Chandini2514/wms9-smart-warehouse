@@ -1,0 +1,32 @@
+<slide id="handoff_problem">
+  <background color="bg"/>
+  <shape id="top-rail" type="line" x="40" y="72" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="brand-line" x="48" y="40" width="270" height="20" font="mono" size="14" color="amber" wrap="false">WMS-9  /  PROBLEM SIGNAL</text>
+  <text id="page-code" x="900" y="40" width="330" height="20" font="mono" size="12" color="text-muted" align="right" wrap="false">02 // HANDOFF EXPOSURE</text>
+  <text id="slide-title" x="60" y="96" width="990" height="46" font="heading" size="40" color="text-main" wrap="false">Warehouses lose time at handoffs, not dashboards.</text>
+  <text id="slide-subtitle" x="60" y="146" width="860" height="28" font="body" size="18" color="text-muted">Status is visible across the floor. The next action and its rationale are often missing.</text>
+  <shape id="passive-panel" type="rect" x="60" y="196" width="530" height="398" fill="panel" stroke="separator" stroke-width="1"/>
+  <text id="passive-label" x="84" y="220" width="220" height="20" font="mono" size="13" color="text-muted" wrap="false">CURRENT STATE // STATUS</text>
+  <text id="passive-heading" x="84" y="252" width="390" height="32" font="heading" size="28" color="text-main">Teams see the warning.</text>
+  <shape id="passive-rule" type="line" x="84" y="301" width="410" height="0" stroke="separator" stroke-width="1"/>
+  <shape id="stock-dot" type="ellipse" x="87" y="334" width="12" height="12" fill="red"/>
+  <text id="stock-status" x="116" y="327" width="360" height="30" font="body" size="18" color="text-main">Stockout risk in bin A-12</text>
+  <shape id="sla-dot" type="ellipse" x="87" y="391" width="12" height="12" fill="amber"/>
+  <text id="sla-status" x="116" y="384" width="360" height="30" font="body" size="18" color="text-main">VIP order approaching cutoff</text>
+  <shape id="delivery-dot" type="ellipse" x="87" y="448" width="12" height="12" fill="blue"/>
+  <text id="delivery-status" x="116" y="441" width="360" height="30" font="body" size="18" color="text-main">Carrier delay after dispatch</text>
+  <text id="passive-consequence" x="84" y="525" width="420" height="36" font="body" size="17" color="text-muted">The operator still needs to ask: what happens next?</text>
+  <shape id="decision-panel" type="rect" x="665" y="196" width="555" height="398" fill="panel" stroke="separator" stroke-width="1"/>
+  <shape id="decision-tab" type="rect" x="665" y="196" width="8" height="398" fill="amber"/>
+  <text id="decision-label" x="695" y="220" width="290" height="20" font="mono" size="13" color="amber" wrap="false">WMS-9 // DECISION RESPONSE</text>
+  <text id="decision-heading" x="695" y="252" width="420" height="32" font="heading" size="28" color="text-main">Teams get the next move.</text>
+  <shape id="decision-rule" type="line" x="695" y="301" width="460" height="0" stroke="separator" stroke-width="1"/>
+  <text id="exception-label" x="695" y="331" width="150" height="20" font="mono" size="12" color="red" wrap="false">EXCEPTION</text>
+  <text id="exception-text" x="695" y="354" width="450" height="26" font="body" size="18" color="text-main">SK-2088 batch fails incoming QC.</text>
+  <text id="decision-label2" x="695" y="406" width="150" height="20" font="mono" size="12" color="amber" wrap="false">DECISION</text>
+  <text id="decision-text" x="695" y="429" width="450" height="26" font="body" size="18" color="text-main">Move 16 units to Quarantine now.</text>
+  <text id="resolution-label" x="695" y="481" width="150" height="20" font="mono" size="12" color="green" wrap="false">RESOLUTION</text>
+  <text id="resolution-text" x="695" y="504" width="470" height="48" font="body" size="18" color="text-main">Block allocation; create a reorder recommendation; log the reason.</text>
+  <shape id="bottom-rail" type="line" x="40" y="656" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="deck-footer" x="910" y="666" width="300" height="18" font="mono" size="12" color="text-muted" align="right" wrap="false">DECISION RAIL // 09:18:42</text>
+</slide>

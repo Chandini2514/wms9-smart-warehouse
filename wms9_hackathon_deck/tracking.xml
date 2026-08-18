@@ -1,0 +1,34 @@
+<slide id="tracking">
+  <background color="bg"/>
+  <shape id="top-rail" type="line" x="40" y="72" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="brand-line" x="48" y="40" width="280" height="20" font="mono" size="14" color="amber" wrap="false">WMS-9  /  POST-DISPATCH CONTROL</text>
+  <text id="page-code" x="900" y="40" width="330" height="20" font="mono" size="12" color="text-muted" align="right" wrap="false">07 // TRACKING &amp; RECOVERY</text>
+  <text id="slide-title" x="60" y="96" width="1120" height="44" font="heading" size="40" color="text-main" wrap="false">Tracking turns exceptions into recovery work.</text>
+  <text id="slide-subtitle" x="60" y="146" width="1060" height="28" font="body" size="18" color="text-muted">Shipment checkpoints remain traceable; delays and failed deliveries produce a clear next action.</text>
+  <image id="route-evidence" src="https://private-us-east-1.manuscdn.com/sessionFile/kUC4ix21NV7LdnS7CH9HBx/sandbox/slides_resource_iwkwan5l578q94k8b5ycg-956dc7ec-e2b-prod-azure-central-us_1787032572561_na1fn_L2hvbWUvdWJ1bnR1L3dlYmRldi1zdGF0aWMtYXNzZXRzL3dtczktc2hpcHBpbmctcm91dGU.jpg?x-oss-process=image/resize,w_1560,h_1560/format,webp&Expires=1789430400&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUva1VDNGl4MjFOVjdMZG5TN0NIOUhCeC9zYW5kYm94L3NsaWRlc19yZXNvdXJjZV9pd2t3YW41bDU3OHE5NGs4YjV5Y2ctOTU2ZGM3ZWMtZTJiLXByb2QtYXp1cmUtY2VudHJhbC11c18xNzg3MDMyNTcyNTYxX25hMWZuX0wyaHZiV1V2ZFdKMWJuUjFMM2RsWW1SbGRpMXpkR0YwYVdNdFlYTnpaWFJ6TDNkdGN6a3RjMmhwY0hCcGJtY3RjbTkxZEdVLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE1NjAsaF8xNTYwL2Zvcm1hdCx3ZWJwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5NDMwNDAwfX19XX0_&Key-Pair-Id=K2QY5QTL8JSY6C&Signature=MEQCIGxeh1drEaAU7CtAi5wR69VTbHICIZyyaoIs1fQst1R1AiA25FihYbj1-6ivUzRHiZRgXiXl6akzyI34ETc1yV9snw__" x="60" y="192" width="1160" height="126" fit="cover" opacity="0.7" stroke="separator" stroke-width="1"/>
+  <shape id="route-overlay" type="rect" x="60" y="192" width="1160" height="126" fill="#12161D80"/>
+  <text id="route-origin" x="86" y="276" width="260" height="18" font="mono" size="12" color="text-main" wrap="false">ORIGIN // BENGALURU FC-01</text>
+  <text id="route-live" x="526" y="276" width="220" height="18" font="mono" size="12" color="amber" align="center" wrap="false">LIVE // HUB SCAN</text>
+  <text id="route-next" x="878" y="276" width="310" height="18" font="mono" size="12" color="text-main" align="right" wrap="false">NEXT // LAST-MILE HANDOFF</text>
+  <shape id="tracking-panel" type="rect" x="60" y="346" width="700" height="260" fill="panel" stroke="separator" stroke-width="1"/>
+  <text id="tracking-panel-label" x="84" y="370" width="350" height="18" font="mono" size="12" color="amber" wrap="false">W9-EXP-884203 // EVENT LEDGER</text>
+  <shape id="track-line" type="line" x="104" y="412" width="0" height="142" stroke="separator" stroke-width="1"/>
+  <shape id="dispatch-dot" type="ellipse" x="98" y="405" width="13" height="13" fill="green"/>
+  <text id="dispatch-time" x="132" y="400" width="105" height="18" font="mono" size="12" color="text-muted" wrap="false">09:18</text>
+  <text id="dispatch-event" x="250" y="398" width="380" height="22" font="body" size="17" color="text-main">Dispatched · Bengaluru Fulfillment Center</text>
+  <shape id="transit-dot" type="ellipse" x="98" y="460" width="13" height="13" fill="green"/>
+  <text id="transit-time" x="132" y="455" width="105" height="18" font="mono" size="12" color="text-muted" wrap="false">12:40</text>
+  <text id="transit-event" x="250" y="453" width="380" height="22" font="body" size="17" color="text-main">In transit · Bengaluru Distribution Hub</text>
+  <shape id="delivery-dot" type="ellipse" x="98" y="515" width="13" height="13" fill="amber"/>
+  <text id="delivery-time" x="132" y="510" width="105" height="18" font="mono" size="12" color="amber" wrap="false">NEXT EVENT</text>
+  <text id="delivery-event" x="250" y="508" width="380" height="22" font="body" size="17" color="text-main">Out for delivery · customer-visible trace</text>
+  <shape id="recovery-panel" type="rect" x="790" y="346" width="430" height="260" fill="panel" stroke="red" stroke-width="1"/>
+  <shape id="recovery-tab" type="rect" x="790" y="346" width="7" height="260" fill="red"/>
+  <text id="recovery-label" x="820" y="370" width="220" height="18" font="mono" size="12" color="red" wrap="false">IF DELIVERY FAILS</text>
+  <text id="recovery-title" x="820" y="402" width="340" height="56" font="heading" size="29" color="text-main">Create recovery work—not a dead-end status.</text>
+  <text id="recovery-step-one" x="820" y="484" width="340" height="22" font="body" size="17" color="text-main">1. Draft proactive customer alert</text>
+  <text id="recovery-step-two" x="820" y="520" width="340" height="22" font="body" size="17" color="text-main">2. Schedule redelivery or reship</text>
+  <text id="recovery-step-three" x="820" y="556" width="350" height="22" font="body" size="17" color="green">3. Re-enter allocation for fresh stock</text>
+  <shape id="bottom-rail" type="line" x="40" y="656" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="deck-footer" x="910" y="666" width="300" height="18" font="mono" size="12" color="text-muted" align="right" wrap="false">DECISION RAIL // TRACKING</text>
+</slide>

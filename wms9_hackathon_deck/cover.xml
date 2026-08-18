@@ -1,0 +1,13 @@
+<slide id="cover">
+  <background color="bg"/>
+  <shape id="outer-frame" type="rect" x="40" y="32" width="1200" height="656" fill="none" stroke="separator" stroke-width="1"/>
+  <shape id="top-rail" type="line" x="40" y="72" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="brand-line" x="58" y="40" width="280" height="22" font="mono" size="14" color="amber" wrap="false">WMS-9  /  DECISION RAIL</text>
+  <text id="system-code" x="972" y="40" width="238" height="22" font="mono" size="14" color="text-muted" align="right" wrap="false">WAREHOUSE OPS // 01</text>
+  <shape id="decision-signal" type="rect" x="560" y="206" width="160" height="6" fill="amber"/>
+  <text id="cover-title" x="180" y="242" width="920" height="88" font="display" size="82" color="text-main" align="center" wrap="false">WMS-9</text>
+  <text id="cover-subtitle" x="220" y="354" width="840" height="42" font="heading" size="30" color="text-main" align="center" wrap="false">The decision layer for warehouse teams</text>
+  <text id="cover-description" x="300" y="416" width="680" height="28" font="body" size="18" color="text-muted" align="center">Smart Warehouse Operations &amp; Order Fulfillment Platform</text>
+  <shape id="bottom-rail" type="line" x="40" y="656" width="1200" height="0" stroke="separator" stroke-width="1"/>
+  <text id="deck-footer" x="860" y="666" width="350" height="18" font="mono" size="12" color="text-muted" align="right" wrap="false">HACKATHON SYSTEM DEMO // 2026</text>
+</slide>

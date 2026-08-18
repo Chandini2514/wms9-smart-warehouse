@@ -1,0 +1,133 @@
+{
+  "project_info": {
+    "title": "WMS-9",
+    "created": 1787032415.053,
+    "last_updated": 1787032658.634,
+    "total_slides": 11
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "handoff_problem",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "decision_flow",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "ledger",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "material_quarantine",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "shipping",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "tracking",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "chat",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "demo",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "architecture",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "close",
+      "state": "edited",
+      "pageNum": 11
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "WMS-9",
+      "summary": "Title slide introducing the Smart Warehouse Operations & Order Fulfillment Platform.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "handoff_problem",
+      "title": "Warehouses lose time at handoffs",
+      "summary": "Frame the operational gap between visible status and an actionable, explainable next step.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "decision_flow",
+      "title": "One flow, one accountable decision trail",
+      "summary": "Show the full order lifecycle and the exception-to-decision-to-resolution principle.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "ledger",
+      "title": "The Decision Ledger makes automation explainable",
+      "summary": "Explain the central traceability feature linking every module and decision.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "material_quarantine",
+      "title": "Quarantine prevents bad stock from becoming a late order",
+      "summary": "Demonstrate material issue reporting, virtual quarantine, disposition, and reorder logic.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "shipping",
+      "title": "Shipping uses SLA and priority",
+      "summary": "Show explainable carrier assignment and shipment consolidation logic.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "tracking",
+      "title": "Tracking turns exceptions into recovery work",
+      "summary": "Show checkpoint visibility, in-transit exception handling, and the public tracking view.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "chat",
+      "title": "Floor chat is structured operational context",
+      "summary": "Show collaboration channels and quick actions that produce operational state changes.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "demo",
+      "title": "Demo the exception-to-resolution loop",
+      "summary": "Provide a clear four-step judge demonstration sequence.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "architecture",
+      "title": "Built for the hackathon and ready to evolve",
+      "summary": "Explain the React mock-state architecture and future replacement with operational APIs.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "close",
+      "title": "Resolve risk before it becomes delay",
+      "summary": "Close with the WMS-9 positioning statement.",
+      "image_plan": "Use a suitable image if needed"
+    }
+  ]
+}
